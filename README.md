@@ -40,7 +40,6 @@ $ cd example-OOP-skills-v.2
 $ g++ main.cpp Branch.cpp -o my_program
 $ ./my_program
 
-# Программа выведет дерево и запросит имя эльфа:
 Input the name of the elf you are seeking for: 
 A
 Elf B
