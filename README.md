@@ -4,7 +4,7 @@ This C++ project demonstrates the creation of a hierarchical data structure (a t
 
 ## Project Structure
 
-The project is organized as follows:
+**The project is organized as follows**:
 
 example-OOP-skills-v.2/
 ├── Branch.h // Header file for the Branch class
