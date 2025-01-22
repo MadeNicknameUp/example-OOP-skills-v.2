@@ -22,7 +22,6 @@ example-OOP-skills-v.2/
 
 ```
 $ git clone https://github.com/MadeThisUp/example-OOP-skills-v.2.git
-
 ```
 
 2. **Navigate to the project directory**:
@@ -30,7 +29,6 @@ $ git clone https://github.com/MadeThisUp/example-OOP-skills-v.2.git
 
 ```
 $ cd example-OOP-skills-v.2
-
 ```
 
 3. **Compile the project**:
@@ -38,7 +36,6 @@ $ cd example-OOP-skills-v.2
 
 ```
 $ g++ main.cpp Branch.cpp -o my_program
-
 ```
 
 4. **Run the program**:
@@ -46,7 +43,6 @@ $ g++ main.cpp Branch.cpp -o my_program
 
 ```
 $ ./my_program
-
 ```
 
 5. **Follow the on-screen instructions...**
@@ -64,5 +60,4 @@ Input the name of the elf you are seeking for:
 A
 Elf B
 Elf C
-
 ```
