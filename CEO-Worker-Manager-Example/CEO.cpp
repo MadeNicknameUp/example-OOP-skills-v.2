@@ -7,6 +7,6 @@ short CEO::getDecision() const {
 }
 
 short CEO::makeDecision() {
-    static CEO boss;
+    static CEO boss; // Singleton instance of CEO
     return boss.getDecision();
 }

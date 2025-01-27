@@ -2,19 +2,19 @@
 #define CEO_H
 
 #include <iostream>
-#include <cstdlib> // для std::rand
+#include <cstdlib> // for std::rand
 
 class CEO {
 private:
-    const short decision;
-    CEO(); // Приватный конструктор
+    const short decision; // Decision made by the CEO
+    CEO(); // Private constructor
 
-    short getDecision() const;
+    short getDecision() const; // Returns the decision made by the CEO
 
 public:
-    static short makeDecision();
+    static short makeDecision(); // Static method to get the CEO's decision
 
-    // Удаляем копирование и присваивание
+    // Delete copy constructor and assignment operator to prevent copying
     CEO(const CEO&) = delete;
     CEO& operator=(const CEO&) = delete;
 };

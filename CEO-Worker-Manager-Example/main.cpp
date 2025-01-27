@@ -1,6 +1,6 @@
 #include "CEO.h"
 
 int main() {
-    CEO::makeDecision();
+    CEO::makeDecision(); // Call the CEO's decision-making function
     return 0;
 }

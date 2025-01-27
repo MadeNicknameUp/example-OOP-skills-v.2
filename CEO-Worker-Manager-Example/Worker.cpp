@@ -3,11 +3,11 @@
 short Worker::totalAmount = 0;
 
 Worker::Worker() : id(totalAmount + 1), taskName(101 + std::rand() % 3), busy(false) {
-    totalAmount++;
+    totalAmount++; // Increment the total number of workers
 }
 
 Worker::~Worker() {
-    totalAmount--;
+    totalAmount--; // Decrement the total number of workers
 }
 
 void Worker::currentState() const {

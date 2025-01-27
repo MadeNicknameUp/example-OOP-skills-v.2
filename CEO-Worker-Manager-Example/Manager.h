@@ -6,16 +6,16 @@
 
 class Manager {
 private:
-    static short totalAmount;
-    const short id;
-    short decision;
-    Team myTeam;
+    static short totalAmount; // Total number of managers
+    const short id; // Unique ID for each manager
+    short decision; // Decision made by the manager
+    Team myTeam; // Team managed by the manager
 
 public:
     Manager();
     ~Manager();
 
-    short getDecision() const;
+    short getDecision() const; // Returns the decision made by the manager
 };
 
 #endif // MANAGER_H
