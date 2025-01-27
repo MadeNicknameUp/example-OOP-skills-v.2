@@ -46,3 +46,15 @@ Manager 1 made decision: 2
 ```
 
 ## How the Project Works
+
+   **CEO**: The Chief Executive Officer makes decisions that affect the entire company. Decisions are passed down to managers.
+
+   **Manager**: Managers oversee teams of workers and make decisions based on the CEO's directives.
+
+   **Worker**: Workers perform tasks assigned by their manager. Each worker can be either free or busy with a task.
+
+   **Team**: A team consists of multiple workers and is managed by a manager.
+
+## License
+
+**This project is licensed under the MIT License. See the LICENSE file for details.**
