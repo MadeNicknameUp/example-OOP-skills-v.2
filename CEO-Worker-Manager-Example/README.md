@@ -25,7 +25,8 @@ The project consists of the following files:
 
    ```bash
    git clone https://github.com/your-username/CEO-Worker-Manager-Example.git
-   cd CEO-Worker-Manager-Example```
+   cd CEO-Worker-Manager-Example
+   ```
 
 2. Compile the project:
 
