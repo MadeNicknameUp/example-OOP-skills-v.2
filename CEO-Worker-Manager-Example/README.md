@@ -29,8 +29,9 @@ The project consists of the following files:
 
 2. Compile the project:
 
-  g++ -o main main.cpp CEO.cpp Manager.cpp Team.cpp Worker.cpp
-  (Alternatively, use make if you have a Makefile)
+   ```g++ -o main main.cpp CEO.cpp Manager.cpp Team.cpp Worker.cpp```
+  
+   (Alternatively, use make if you have a Makefile)
 
 ## Example Output
 
